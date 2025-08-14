@@ -1,9 +1,9 @@
 <div align="center">
-  <h2 align="center">Ecommerce Store</h2>
+  <h2 align="center">Medora</h2>
 
-  This is a fully responsive and functional ecommerce website, Responsive for all devices. <br/> Built using Next.js and TailwindCSS.
+Medora is a fully responsive and healthcare landing page, Responsive for all devices. <br/> Built using Next.js and TailwindCSS.
 
-  <a href="https://ecommerce-w3b.vercel.app/"><strong>➥ Live Demo</strong></a>
+<a href="https://medora-v1.web.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -17,22 +17,22 @@
 
 Before you begin, ensure you have met the following requirements:
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-### Installing Ecomerce
+### Installing Medora
 
-To install **E-commerce Store**, run this command on your git bash:
+To install **Medora**, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/rolandaayo/ecommerce-store.git
+sudo git clone https://github.com/rolandaayo/medora-landing-page.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/rolandaayo/ecommerce-store.git
+git clone https://github.com/rolandaayo/medora-landing-page.git
 ```
 
 ## 💬 Contact
