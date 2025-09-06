@@ -24,7 +24,7 @@ const mainFeatures = [
       "Personalized recommendations",
     ],
     image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop&crop=center",
+      "https://picsum.photos/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop&crop=center",
   },
   {
     icon: MessageCircle,
@@ -38,7 +38,7 @@ const mainFeatures = [
       "Prescription management",
     ],
     image:
-      "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop&crop=center",
+      "https://picsum.photos/photo-1582750433449-648ed127bb54?w=600&h=400&fit=crop&crop=center",
   },
   {
     icon: AlertTriangle,
@@ -52,7 +52,7 @@ const mainFeatures = [
       "Health authority updates",
     ],
     image:
-      "https://images.unsplash.com/photo-1576091160550-2173dba0efed?w=600&h=400&fit=crop&crop=center",
+      "https://picsum.photos/photo-1576091160550-2173dba0efed?w=600&h=400&fit=crop&crop=center",
   },
   {
     icon: MapPin,
@@ -66,7 +66,7 @@ const mainFeatures = [
       "Insurance verification",
     ],
     image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop&crop=center",
+      "https://picsum.photos/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop&crop=center",
   },
 ];
 
@@ -160,7 +160,7 @@ export default function Features() {
                 <Image
                   src={
                     feature.image ||
-                    "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop&crop=center"
+                    "https://picsum.photos/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop&crop=center"
                   }
                   alt={feature.title}
                   width={600}

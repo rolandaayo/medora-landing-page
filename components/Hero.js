@@ -51,7 +51,7 @@ export default function Hero() {
           <div className="relative">
             <div className="relative z-10">
               <Image
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=600&fit=crop&crop=center"
+                src="https://picsum.photos/400/600?random=1"
                 alt="Medora App Interface"
                 width={400}
                 height={600}

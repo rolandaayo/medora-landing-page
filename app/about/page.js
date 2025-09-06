@@ -33,21 +33,21 @@ const team = [
     name: "Dr. Sarah Mitchell",
     role: "Chief Medical Officer",
     image:
-      "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop&crop=face",
+      "https://picsum.photos/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop&crop=face",
     bio: "Board-certified physician with 15+ years of experience in emergency medicine and telemedicine.",
   },
   {
     name: "James Rodriguez",
     role: "CEO & Founder",
     image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
+      "https://picsum.photos/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
     bio: "Healthcare technology entrepreneur passionate about democratizing access to quality medical care.",
   },
   {
     name: "Dr. Michael Chen",
     role: "Head of Technology",
     image:
-      "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=300&fit=crop&crop=face",
+      "https://picsum.photos/photo-1612349317150-e413f6a5b16d?w=300&h=300&fit=crop&crop=face",
     bio: "Former Google Health engineer with expertise in AI-powered healthcare solutions and medical informatics.",
   },
 ];
@@ -75,7 +75,7 @@ export default function About() {
             </div>
             <div className="relative">
               <Image
-                src="https://images.unsplash.com/photo-1576091160550-2173dba0efed?w=600&h=500&fit=crop&crop=center"
+                src="https://picsum.photos/photo-1576091160550-2173dba0efed?w=600&h=500&fit=crop&crop=center"
                 alt="Medora Team"
                 width={600}
                 height={500}
@@ -172,7 +172,7 @@ export default function About() {
                 <Image
                   src={
                     member.image ||
-                    "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop&crop=face"
+                    "https://picsum.photos/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop&crop=face"
                   }
                   alt={member.name}
                   width={300}

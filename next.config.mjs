@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // ✅ Enables static export for `next export`
+  output: "export", // ✅ Enables static export for `next export`
 
   eslint: {
     ignoreDuringBuilds: true,
@@ -10,7 +10,15 @@ const nextConfig = {
   },
   images: {
     unoptimized: true, // ✅ Required for static export if using <Image />
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "picsum.photos",
+        port: "",
+        pathname: "/**",
+      },
+    ],
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;

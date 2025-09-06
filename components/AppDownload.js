@@ -20,7 +20,7 @@ export default function AppDownload() {
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors flex items-center space-x-3">
                 <Image
-                  src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=24&h=24&fit=crop&crop=center"
+                  src="https://picsum.photos/photo-1611224923853-80b023f02d71?w=24&h=24&fit=crop&crop=center"
                   alt="Apple"
                   width={24}
                   height={24}
@@ -33,7 +33,7 @@ export default function AppDownload() {
 
               <button className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors flex items-center space-x-3">
                 <Image
-                  src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=24&h=24&fit=crop&crop=center"
+                  src="https://picsum.photos/photo-1611224923853-80b023f02d71?w=24&h=24&fit=crop&crop=center"
                   alt="Google Play"
                   width={24}
                   height={24}
@@ -53,7 +53,7 @@ export default function AppDownload() {
 
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=300&h=500&fit=crop&crop=center"
+              src="https://picsum.photos/photo-1576091160399-112ba8d25d1f?w=300&h=500&fit=crop&crop=center"
               alt="Download Medora App"
               width={300}
               height={500}
