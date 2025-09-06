@@ -1,5 +1,5 @@
-import { ArrowRight, Play } from "lucide-react"
-import Image from "next/image"
+import { ArrowRight, Play } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -15,8 +15,9 @@ export default function Hero() {
                 Companion
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Access health education, connect with doctors instantly, stay informed about disease outbreaks, and find
-                healthcare professionals near you - all in one powerful app.
+                Access health education, connect with doctors instantly, stay
+                informed about disease outbreaks, and find healthcare
+                professionals near you - all in one powerful app.
               </p>
             </div>
 
@@ -50,11 +51,11 @@ export default function Hero() {
           <div className="relative">
             <div className="relative z-10">
               <Image
-                src="/placeholder.svg?height=600&width=400"
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=600&fit=crop&crop=center"
                 alt="Medora App Interface"
                 width={400}
                 height={600}
-                className="mx-auto"
+                className="mx-auto rounded-2xl shadow-lg"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-teal-400 rounded-3xl transform rotate-6 opacity-20"></div>
@@ -62,5 +63,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
